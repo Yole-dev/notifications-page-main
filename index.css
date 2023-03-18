@@ -79,18 +79,31 @@ main section p {
     color: hsl(219, 12%, 42%);
 }
 
-main section p strong {
+.strong {
     color: black;
     padding-right: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.strong:hover {
+    color:hsl(219, 85%, 26%);
 }
 
 .post {
     font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+}
+
+.post:hover {
+    color:hsl(219, 85%, 26%);
 }
 
 .group {
     color: hsl(219, 85%, 26%);
     font-weight: 600;
+    text-decoration: none;
 }
 
 .notificationTime {
