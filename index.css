@@ -74,6 +74,15 @@ main section img {
     width: 50px;
 }
 
+/* .kimberly img:last-of-type {
+    justify-self: flex-end;
+} */
+
+.kimberly img:last-of-type:hover {
+    border: solid 1px hsl(219, 85%, 26%);
+    border-radius: 7px;
+}
+
 main section p {
     font-size: 13px;
     color: hsl(219, 12%, 42%);
