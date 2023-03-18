@@ -8,4 +8,78 @@
 
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+main {
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+main div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+main div h3 span {
+    margin-left: 0.4rem;
+    padding: 2px 12px ;
+    border-radius: 7px;
+    font-size: 16px;
+    color: white;
+    background: hsl(219, 85%, 26%);
+}
+
+main div button {
+    border: none;
+    background: inherit;
+    font-weight: 500;
+    color: hsl(219, 12%, 42%);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+main > section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+main section > section  {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: hsl(210, 60%, 98%);
+    border-radius: 7px;
+    padding: 1rem;
+}
+
+main section img {
+    width: 50px;
+}
+
+main section p {
+    font-size: 13px;
+    color: hsl(219, 12%, 42%);
+}
+
+main section p strong {
+    color: black;
+    padding-right: 5px;
+}
+
+.post {
+    font-weight: 600;
+}
+
+.notificationTime {
+    color: hsl(219, 14%, 63%);
+}
+
+/* toggle class */
+.hidden {
+    display: none;
 }

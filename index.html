@@ -7,8 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Notifications page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="index.css">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -16,18 +15,55 @@
 </head>
 <body>
 
-  Notifications 3
+  <main>
+    <div>
+      <h3>Notifications <span class="notificationNum">3</span> </h3>
+      <button>Mark all as read</button>
+    </div>
 
-  Mark all as read
+  <section>
+    <section class="mark">
+      <img src="assets/images/avatar-mark-webber.webp" alt="Mark's profile picture">
 
-  Mark Webber reacted to your recent post My first tournament today!
-  1m ago
+      <p>
+        <strong>Mark Webber</strong>
+        reacted to your recent post
+        <span class="post">My first tournament today!</span>
+        <br><span class="notificationTime">1m ago</span>
+      </p>
 
-  Angela Gray followed you
-  5m ago
+    </section>
 
-  Jacob Thompson has joined your group Chess Club
-  1 day ago
+    <section class="angela">
+      <img src="assets/images/avatar-angela-gray.webp" alt="Angela's profile picture">
+      <p>
+        <strong>Angela Gray</strong> followed you
+        <br> <span class="notificationTime">5m ago</span> 
+      </p>
+    </section>
+
+    <section class="jacob">
+      <img src="assets/images/avatar-jacob-thompson.webp" alt="Jacob's profile picture">
+      <p>
+        <strong>Jacob Thompson</strong>  has joined your group Chess Club
+        <br> <span class="notificationTime">1 day ago</span> 
+      </p>
+    </section>
+
+  </section>
+    
+
+
+  </main>
+
+
+  <!-- 
+
+  
+
+  
+
+  
 
   Rizky Hasanuddin sent you a private message
   5 days ago
@@ -40,12 +76,14 @@
   Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
   2 weeks ago
 
-  Anna Kim left the group Chess Club
-  2 weeks ago
+  Anna Kim left the group Chess Club -->
+  <!-- 2 weeks ago -->
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
