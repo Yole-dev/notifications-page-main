@@ -57,6 +57,19 @@ main section > section  {
     padding: 1rem;
 }
 
+
+.viewed {
+    background: inherit;
+}
+
+.message {
+    background: inherit;
+    border: solid 1px hsl(219, 14%, 63%);
+    align-self: flex-end;
+    width: 78%;
+    margin-top: -1.5rem;
+}
+
 main section img {
     width: 50px;
 }
@@ -72,6 +85,11 @@ main section p strong {
 }
 
 .post {
+    font-weight: 600;
+}
+
+.group {
+    color: hsl(219, 85%, 26%);
     font-weight: 600;
 }
 
