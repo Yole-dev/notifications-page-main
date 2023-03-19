@@ -23,8 +23,7 @@ message.classList.add('hidden');
 
 //for counting the notifications on the notification
 const notificationCount = function() {
-    const notifications = users.splice(1);
-    notificationNum.innerHTML = `${notifications.length}`
+    notificationNum.innerHTML = `${users.length--}`
 };
 
 markAllBtn.addEventListener('click', function() {
